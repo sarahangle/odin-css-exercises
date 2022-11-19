@@ -25,3 +25,50 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+ul {
+  /* this removes the dots on the list items*/
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header, .footer{
+  display: flex;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.left-links, .right-links {
+  display: flex;
+  gap: 16px;
+}
+
+.right-links{
+  margin-left: auto;
+}
+
+.footer {
+  background-color: #eee;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+}
+
+button {
+  padding: 8px 16px 8px 16px;
+}
